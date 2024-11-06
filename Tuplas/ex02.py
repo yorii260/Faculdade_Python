@@ -29,17 +29,15 @@ tabela_brasileirao = ( # Tabela retirada da 32a rodada do campeonato.
     "Atlético-GO"
 )
 
-while True:
     
-    print(
-        f"""
-        a) Os seis primeiros colocados são:
-        {' '.join(tabela_brasileirao[0:6])}
-        
-        b) Os quatro ultimos colocados são:
-        {' '.join(tabela_brasileirao[16:])}
-        
-        c) O Fortaleza está atualmente na {tabela_brasileirao.index("Fortaleza")+1}a colocação.
-        """
-    )
-    break
+print(
+    f"""
+    a) Os seis primeiros colocados são:
+    {' '.join(tabela_brasileirao[0:6])}
+    
+    b) Os quatro ultimos colocados são:
+    {' '.join(tabela_brasileirao[16:])}
+    
+    c) O Fortaleza está atualmente na {tabela_brasileirao.index("Fortaleza")+1}a colocação.
+    """
+)
